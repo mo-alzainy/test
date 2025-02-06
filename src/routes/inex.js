@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HomePage from '../components/HomePage.vue';
-import payment from '../components/PayMent.vue';
+import HomePage from '@/components/HomePage.vue';
+import payment from '@/components/PayMent.vue';
 
 const routes = [
   {
@@ -10,7 +10,7 @@ const routes = [
 
   },
   {
-    path: '/',
+    path: '/test',
     name: 'homepage',
     component: HomePage,
   },

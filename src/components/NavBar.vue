@@ -5,7 +5,7 @@
         <img src="../assets/cardlogo.png" alt="">
       </div>
       <ul class="nav-links" :class="{'open': isMenuOpen}">
-        <li><router-link to="/">home</router-link></li>
+        <li><router-link to="/test">home</router-link></li>
         <li><router-link to="/payment">Payment</router-link></li>
         <li class="dropdown">
           <a href="#" @click="toggleDropdown">More</a>
@@ -191,7 +191,7 @@ body {
   }
 
   .navbar .dropdown-menu {
-    position: static; 
+    position: static;
     display: none;
   }
 
